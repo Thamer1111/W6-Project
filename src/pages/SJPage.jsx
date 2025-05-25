@@ -72,7 +72,6 @@ let jobApply = [
 function SJPage() {
     return (
         <div className="bg-[#121212] text-white font-sans">
-            {/* Hero Section */}
             <div className="relative h-[80vh] w-full overflow-hidden">
                 <video
                     className="absolute top-0 left-0 w-full h-full object-cover"
@@ -88,7 +87,6 @@ function SJPage() {
                 </div>
             </div>
 
-            {/* Career Start Section */}
             <div className="text-center py-10">
                 <h2 className="text-lg uppercase">Start Your Game Changing Career</h2>
                 <div className="mt-6  mx-5 grid grid-cols-2 lg:grid-cols-3 gap-5">
@@ -102,7 +100,6 @@ function SJPage() {
                 </div>
             </div>
 
-            {/* Explore Section */}
             <div className=" py-10">
                 <h3 className="text-center text-xl font-bold mb-6">Explore Our World</h3>
                 <div className="flex flex-wrap justify-center gap-6">
@@ -122,14 +119,12 @@ function SJPage() {
                 </div>
             </div>
 
-            {/* Game Covers */}
             <div className="bg-black py-10 px-4">
                 <div className="w-f">
                     <video src="https://www.activision.com/cdn/videos/game-ap-look.mp4" videosize="contained" autoplay="" muted="" loop="" />
                 </div>
             </div>
 
-            {/* Studios Section */}
             <div className=" py-10 text-center">
                 <h3 className="text-xl font-bold mb-6">Our Studios</h3>
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -142,7 +137,6 @@ function SJPage() {
                 </div>
             </div>
 
-            {/* Job Listings */}
             <div className="bg-black py-10 px-10">
                 <h3 className="text-start text-xl font-bold mb-6">Be the First to Apply</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
